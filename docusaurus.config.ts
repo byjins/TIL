@@ -18,12 +18,12 @@ const config: Config = {
   url: "https://byjins.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/TIL.github.io/",
+  baseUrl: "/TIL/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "byjins", // Usually your GitHub org/user name.
-  projectName: "TIL.github.io", // Usually your repo name.
+  projectName: "TIL", // Usually your repo name.
 
   onBrokenLinks: "throw",
 
@@ -32,7 +32,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ko",
-    locales: ["ko"],
+    locales: ["ko", "en"],
   },
 
   presets: [
